@@ -4,6 +4,109 @@
 <meta charset="UTF-8">
 <title>Modern Audio Player</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #cfd8dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.player-container {
+    background: #d7dee3;
+    padding: 30px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.play-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #e8f5e9, #2e7d32);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.seek-container {
+    flex: 1;
+}
+
+.seek-bar {
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+.active {
+    background: black;
+    color: white;
+}
+
+.volume-box {
+    margin-top: 30px;
+    background: #eee;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.volume-box input {
+    flex: 1;
+}
+
+</style>
+</head>
+
+<body>
 
 <div class="player-container">
 
